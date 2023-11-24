@@ -1,23 +1,20 @@
-.print_web{
-    margin-bottom: 3%; 
-    width: 96%;
-}
-
-.print_mobile {
+.image-mobile {
     max-width: 20%;
     margin: 0 auto;
     margin-bottom: 3%;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.m-bg-primary {
+    background-color: #2B2167;
 }
 
-p{
+.m-spy p {
     padding-top: 10px;
     text-align: justify;
 }
 
+.m-spy img {
+    margin-bottom: 3%; 
+    width: 96%;
+}
 
