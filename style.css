@@ -1,9 +1,13 @@
-.image-mobile {
-    max-width: 20%;
-    margin: 0 auto;
-    margin-bottom: 3%;
+.image-web {
+    margin-bottom: 15px; 
+    width: 96%;
 }
 
+.image-mobile {
+    max-width: 20%;
+    margin: 20px
+    
+}
 .m-bg-primary {
     background-color: #2B2167;
 }
