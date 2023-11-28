@@ -1,5 +1,9 @@
+.image-register{
+    margin-bottom: 20px; 
+    width: 40%;
+}
 .image-web {
-    margin-bottom: 15px; 
+    margin-bottom: 20px; 
     width: 96%;
 }
 
@@ -16,9 +20,3 @@
     padding-top: 10px;
     text-align: justify;
 }
-
-.m-spy img {
-    margin-bottom: 3%; 
-    width: 96%;
-}
-
