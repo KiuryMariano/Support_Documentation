@@ -15,7 +15,7 @@
   <title>Central de Ajuda</title>
 </head>
 
-<body>
+<body style="overflow: hidden;">
 
   <nav class="navbar navbar-expand-lg m-bg-primary navbar-dark p-0 fixed-top">
     <div class="container-fluid">
@@ -40,15 +40,16 @@
     </div>
   </nav>
 
+  
   <main style="margin-top: 60px;">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3" style="height: 850px; overflow-y: scroll;">
           <nav class="flex-column align-items-stretch pe-2">
             <nav class="nav nav-pills flex-column">
-              <div class="p-3 mb-5 bg-body-tertiary rounded">
+              <div class="p-3 mb-5 bg-body-tertiary rounded lh-base">
 
-                <h3 class="fs-6 text-primary">Por onde começar?</h3>
+                <h3 class="fs-6 text-primary">POR ONDE COMEÇAR?</h3>
 
                 <a class="nav-link" href="#Conheça a AKT">Conheça a AKT</a>
                 <nav class="nav nav-pills flex-column">
@@ -59,7 +60,8 @@
                 <a class="nav-link" href="#Passos para o sucesso!">Passos para o sucesso!</a>
                 <a class="nav-link" href="#Fluxo de uso">Fluxo de uso</a>
 
-                <h3 class="fs-6 text-primary">Cadastros Básicos</h3>
+                <h3 class="fs-6 text-primary mt-4">CADASTROS BÁSICOS</h3>
+                <a class="nav-link" href="#Base">Base</a>
                 <a class="nav-link" href="#Criação de Roteiro">Criação de Roteiro</a>
                 <a class="nav-link" href="#Acesso ao aplicativo mobile">Acesso ao aplicativo mobile</a>
                 <a class="nav-link" href="#Cadastro de Aparelhos e Linhas">Cadastro de Aparelhos e Linhas</a>
@@ -69,9 +71,9 @@
           </nav>
         </div>
 
-        <div data-bs-spy="scroll" class="col-md-8 m-spy">
+        <div data-bs-spy="scroll" class="col m-spy" style="height: 850px; overflow-y: scroll;">
           <div data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0"
-            style="margin-right: 2%;">
+            style="margin-inline: 50px;">
 
             <div id="Conheça a AKT">
               <h3>Conheça a AKT</h3>
@@ -125,7 +127,7 @@
               <h5>WEB</h5>
 
               <div class="text-center">
-                <img class="image-web" src="Assents/Tela Login Web.png">
+                <img class="image-web" src="Assents/Web_tela_entrada.png">
               </div>
 
               <p>Na Web, a AKT é a interface online do sistema e pode ser acessada
@@ -139,7 +141,7 @@
               <h5>APP</h5>
 
               <div class="text-center">
-                <img class="image-mobile" src="Assents/Tela_app.jpeg">
+                <img class="image-mobile" src="Assents/Mobile_tela_entrada.jpeg">
               </div>
 
               <p>No App, a AKT é a interface mobile do sistema, um aplicativo
@@ -508,8 +510,11 @@
                 Aparelhos próprios somente serão exibidos se não estiverem já vinculados a um colaborador!
               </div>
 
-              <p>Ao selecionar um aparelho sem nomeação, e salvar as Credenciais, ele será vinculado aquele colaborador.
-              </p>
+              <p>Ao selecionar um aparelho sem nomeação, e salvar as Credenciais, ele será vinculado aquele colaborador.</p>
+
+              <div class="text-center">
+                <img class="image-web" src="Assents/Colaboradores_credenciais_aparelho_vinculado.png">
+              </div>
 
               <p>Caso selecionar um aparelho previamente associado a outro colaborador será exibido uma mensagem de
                 confirmação para remover do colaborador 1 e vincular ao colaborador 2.</p>
@@ -553,9 +558,26 @@
                 <img class="image-web" src="Assents/Colaboradores_credenciais_aparelho_exclusivo_vinculado.png">
               </div>
 
-              <p> Para remover o aparelho próprio utilize o botão "DESVINCULAR APARELHO", então o cadastro desse
-                aparelho
-                será deletado do sistema.</p>
+              <p> Para remover o aparelho próprio utilize o botão "DESVINCULAR APARELHO" e então clique em "CONFIRMAR", para que então o cadastro desse
+                aparelho seja deletado do sistema.</p>
+
+                <div class="text-center">
+                  <img class="image-register" src="Assents/Colaboradores_credenciais_desvincular_aparelho_próprio_mensagem.png">
+                </div>
+            </div>
+
+            <div id="Base">
+              <h3>Base</h3>
+
+              <p> TEXTO.</p>
+
+              <div class="text-center">
+                <img class="image-web" src="Assents/">
+              </div>
+
+              <div class="alert alert-secondary" role="alert">
+                ALERTA.
+              </div>
 
             </div>
 
